@@ -63,19 +63,14 @@ En el archivo requirements.txt tenemos la lista de las librerías a utilizar
 
 Los resultados están disponibles en un sitio de Render de acceso público, desde donde se pueden realizar las consultas
 
-Las funciones API : def userdata( User_id : str ): Devuelve cantidad de dinero gastado por el usuario, el porcentaje de recomendación en base a reviews.recommend y cantidad de items.
-
-def countreviews( YYYY-MM-DD y YYYY-MM-DD : str ): Devuelve Cantidad de usuarios que realizaron reviews entre las fechas dadas y, el porcentaje de recomendación de los mismos en base a reviews.recommend.
-
-def genre( género : str ): Devuelve el puesto en el que se encuentra un género sobre el ranking de los mismos analizado bajo la columna PlayTimeForever.
-
-def userforgenre( género : str ): Devuelve Top 5 de usuarios con más horas de juego en el género dado, con su URL (del user) y user_id.
-
-def developer( desarrollador : str ): Devuelve Cantidad de items y porcentaje de contenido Free por año según empresa desarrolladora.
-
-def sentiment_analysis( año : int ): Según el año de lanzamiento, se devuelve una lista con la cantidad de registros de reseñas de usuarios que se encuentren categorizados con un análisis de sentimiento.
-
-def recomendacion_juego( id de producto ): Ingresando el id de producto, recibimos una lista con 5 juegos recomendados similares al ingresado.
+## Las funciones API : 
+1. userdata(user_id: str): Proporcionar cantidad de dinero gastado, porcentaje de recomendaciones positivas y cantidad de items del usuario solicitado.
+2. countreviews(fecha1: str,fecha2: str): Proporcionar cantidad de usuarios que dieron opiniones entre las fechas dadas y el porcentaje de recomendaciones positivas.
+3. genre(genero: str): Proporcionar el puesto en el que se encuentra el género indicado en el ranking de horas jugadas.
+4. userforgenre(genero: str): Proporcionar 5 usuarios con más horas de juego en el género indicado.
+5. developer(desarrollador: str): Proporcionar cantidad de items y porcentaje de contenido gratis por año de la empresa indicada.
+6. sentiment_analysis(año: int): Proporcionar la cantidad de reseñas del año indicado, categorizadas en positivo, negativo y neutral.
+7. recomendacion_juego(item_id: int): Proporcionar una lista con 5 juegos recomendados similares al ingresado.
 
 
 ## Enlaces
