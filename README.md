@@ -1,6 +1,8 @@
-# Proyecto_Individual_1
+Proyecto Individual 1 - Data Science datapt03 - Henry
 
-Steam, plataforma multinacional de videojuegos.
+
+# Proyecto Individual Steam, plataforma multinacional de videojuegos de Miguel Britez
+
 ![](https://i0.wp.com/xperimentalhamid.com/wp-content/uploads/2021/05/Steam-Unlocked.png?fit=1300%2C800&ssl=1&is-pending-load=1)
 
 ## API de Sistema de consultas y recomendaciones de juego.
@@ -47,7 +49,6 @@ Los archivos son:
 
 * transformaciones.ipynb (aquí se hace una transformación distinta que obedece a las necesidades de cada consulta específica, relacionando los 3 csv anteriores)
 
-* prueba_funciones.ipynb (notebook donde se encuentran importadas las librerías y desarrolladas las 7 funciones. Se utiliza como prueba antes del main.py)
 
 ## Resultados
 
@@ -65,17 +66,5 @@ Los resultados están disponibles en un sitio de Render de acceso público, desd
 
 ## Enlaces
 
-Tenemos disponibles todos los archivos ipynb, txt, py, csv necesarios en el siguiente repositorio de GITHUB:
-
-* https://github.com/Jeremias44/Proyecto_Individual_1.git
-
-Tenemos disponible un sitio en Render para realizar las consultas mencionadas en la introducción:
-
-* Sitio principal: https://consultas-steam-jeremias-pombo.onrender.com/
-
-* Sitio de consultas: https://consultas-steam-jeremias-pombo.onrender.com/docs
-
-Tenemos un video donde se muestra el funcionamiento de la API respondiendo a distintas consultas:
-
-* Link de Youtube: https://www.youtube.com/watch?v=NIOKhnZ9J7E&ab_channel=JEREM%C3%8DASPOMBO
+Acceso a la aplicación ([FastApi](https://pi-games.onrender.com/docs))
 
