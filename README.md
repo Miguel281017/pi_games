@@ -33,12 +33,12 @@ Se realiza ETL de cada uno de los tres archivos: se abren se limpian, corrigen y
 
 Luego de un EDA, estudiando las necesidades del negocio y la naturaleza de las consultas requeridas, hacemos uniones entres los archivos, groupby, recortes y eliminación de columnas innecesarias, guardando archivos csv mucho más compactos y sencillos, que nos utilizaremos dependiendo de la consulta:
 
-* 1userdata.csv
-* 2reviews_desanidado.csv
-* 4userforgenre.csv
-* 5developer.csv
-* 6sentiment_analysis.csv
-* 7recomendacion_juego.csv
+* userdata.csv
+* reviews_desanidado.csv
+* userforgenre.csv
+* developer.csv
+* sentiment_analysis.csv
+* recomendacion_juego.csv
 
 Se cuenta con los archivos ipynb correspondientes para hacer un seguimiento del ETL y EDA (la explicación de los procesos se encuentra dentro de cada archivo), y tener disponible el proceso ante la eventual llegada de nuevos datos.
 Los archivos son:
@@ -50,9 +50,9 @@ Los archivos son:
 * transformaciones.ipynb (aquí se hace una transformación distinta que obedece a las necesidades de cada consulta específica, relacionando los 3 csv anteriores)
 
 
-## Resultados
 
-En el archivo main.py tenemos:
+
+ En ([main.py](https://github.com/Miguel281017/pi_games/blob/main/main.py)) 
 
 * La creación de la API
 * La importación de las librerías necesarias
@@ -62,6 +62,14 @@ En el archivo main.py tenemos:
 En el archivo requirements.txt tenemos la lista de las librerías a utilizar
 
 Los resultados están disponibles en un sitio de Render de acceso público, desde donde se pueden realizar las consultas
+
+Las funciones API : def userdata( User_id : str ): Devuelve cantidad de dinero gastado por el usuario, el porcentaje de recomendación en base a reviews.recommend y cantidad de items.
+def countreviews( YYYY-MM-DD y YYYY-MM-DD : str ): Devuelve Cantidad de usuarios que realizaron reviews entre las fechas dadas y, el porcentaje de recomendación de los mismos en base a reviews.recommend.
+def genre( género : str ): Devuelve el puesto en el que se encuentra un género sobre el ranking de los mismos analizado bajo la columna PlayTimeForever.
+def userforgenre( género : str ): Devuelve Top 5 de usuarios con más horas de juego en el género dado, con su URL (del user) y user_id.
+def developer( desarrollador : str ): Devuelve Cantidad de items y porcentaje de contenido Free por año según empresa desarrolladora.
+def sentiment_analysis( año : int ): Según el año de lanzamiento, se devuelve una lista con la cantidad de registros de reseñas de usuarios que se encuentren categorizados con un análisis de sentimiento.
+def recomendacion_juego( id de producto ): Ingresando el id de producto, recibimos una lista con 5 juegos recomendados similares al ingresado.
 
 
 ## Enlaces
