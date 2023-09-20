@@ -1,14 +1,14 @@
 # Proyecto_Individual_1
 
 Steam, plataforma multinacional de videojuegos.
-![](https://blog.soyhenry.com/content/images/2021/05/PRESENTACION-3.jpg)
+![](https://i0.wp.com/xperimentalhamid.com/wp-content/uploads/2021/05/Steam-Unlocked.png?fit=1300%2C800&ssl=1&is-pending-load=1)
 
 ## API de Sistema de consultas y recomendaciones de juego.
 
 
 ## Introducción
 
-Este proyecto simula el rol de un MLOps Engineer, es decir, la combinación de un Data Engineer y Data Scientist, para la plataforma multinacional de videojuegos Steam. Para su desarrollo, se entregan unos datos y se solicita un Producto Mínimo Viable que muestre una API deployada en un servicio en la nube y la aplicación de dos modelos de Machine Learning, por una lado, un análisis de sentimientos sobre los comentarios de los usuarios de los juegos y, por otro lado, la recomendación de juegos a partir de dar el nombre de un juego y/o a partir de los gustos de un usuario en particular.
+Este proyecto simula el rol de un MLOps Engineer, es decir, la combinación de un Data Engineer y Data Scientist, para la plataforma multinacional de videojuegos Steam. Para su desarrollo, se entregan unos datos y se solicita un Producto Mínimo Viable que muestre una API deployada en un servicio en la nube y la aplicación de un modelo de Machine Learning.
 
 ## Contexto
 
