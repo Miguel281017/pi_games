@@ -77,3 +77,5 @@ Los resultados están disponibles en un sitio de Render de acceso público, desd
 
 Acceso a la aplicación ([FastApi](https://pi-games.onrender.com/docs))
 
+Video en ([Youtube](https://youtu.be/9d8_CqSPvzE))
+
