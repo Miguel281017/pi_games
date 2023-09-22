@@ -40,7 +40,7 @@ Luego de un EDA, estudiando las necesidades del negocio y la naturaleza de las c
 * sentiment_analysis.csv
 * recomendacion_juego.csv
 
-Se cuenta con los archivos ipynb correspondientes para hacer un seguimiento del ETL y EDA (la explicación de los procesos se encuentra dentro de cada archivo), y tener disponible el proceso ante la eventual llegada de nuevos datos.
+Se cuenta con los archivos ipynb correspondientes para hacer un seguimiento del ETL y EDA (la explicación de los procesos se encuentra dentro de cada archivo).
 Los archivos son:
 
 * ETL_Games.ipynb
