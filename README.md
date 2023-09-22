@@ -52,7 +52,7 @@ Los archivos son:
 
 
 
- En ([main.py](https://github.com/Miguel281017/pi_games/blob/main/main.py)) 
+ En ([main.py](https://github.com/Miguel281017/pi_games/blob/main/main.py)) encontraremos: 
 
 * La creación de la API
 * La importación de las librerías necesarias
